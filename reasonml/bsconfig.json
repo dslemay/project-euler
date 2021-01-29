@@ -1,11 +1,18 @@
 {
   "name": "reasonml",
   "version": "0.1.0",
-  "sources": {
-    "dir" : "src",
-    "subdirs" : true
-  },
+  "sources": [
+    {
+      "dir" : "src",
+      "subdirs" : true
+    },
+    {
+    "dir": "__tests__",
+    "type": "dev"
+    }
+  ],
   "warnings": {
     "error" : "+101"
-  }
+  },
+  "bs-dev-dependencies": ["@glennsl/bs-jest"]
 }
