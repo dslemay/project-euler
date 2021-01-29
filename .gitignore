@@ -1,0 +1,6 @@
+node_modules
+.swap
+.DS_Store
+
+# Generated files
+reasonml/lib
